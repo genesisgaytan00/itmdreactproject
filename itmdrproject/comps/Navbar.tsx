@@ -6,9 +6,9 @@ const Navbar = () => {
       <div className="logo">
       <h1 className="text-2xl font-bold text-gray-800">List</h1>
       </div>
-      <Link href="/" className="text-gray-800 no-underline">Home</Link>
-      <Link href="/about" className="text-gray-800 no-underline">About</Link>
-      <Link href="/listing" className="text-gray-800 no-underline">Listing</Link>
+      <Link href="/">Home</Link>
+      <Link href="/about">About</Link>
+      <Link href="/listing">Listing</Link>
     </nav>
   );
 };

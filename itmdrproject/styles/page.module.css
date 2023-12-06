@@ -1,5 +1,6 @@
+
 .title {
-    color: #333;
+    color: #3d2250;
     padding-bottom: 20px;
     text-align: center;
   }
@@ -7,12 +8,13 @@
     color: #777;
   }
   .btn {
+
     display: block;
     width: 150px;
     padding: 8px 0;
     margin: 20px auto;
-    background: #4979ff;
+    background: #9b49ff;
     border-radius: 4px;
-    color: white;
+    color: rgb(13, 13, 13);
     text-align: center;
   }

@@ -3,6 +3,20 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+nav {
+  margin: 10px auto 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+nav a {
+  margin-left: 12px;
+}
+nav .logo {
+  margin-right: auto;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -42,4 +56,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #1f1e1e;
+  padding: 10px 0;
+  border-top: 1px solid #2c2b2b;
+  text-align: center;
 }
