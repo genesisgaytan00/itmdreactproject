@@ -1,12 +1,28 @@
+
+// import React from 'react';
+// import RootLayout from './RootLayout';
+
+// const About: React.FC = () => {
+//   return (
+//     <RootLayout>
+//       <h1>About Page</h1>
+//       {/* Other page content */}
+//     </RootLayout>
+//   );
+// };
+
+// export default About;
 import React from 'react';
 import RootLayout from './RootLayout';
-import styles from '../styles/page.module.css';
-const about: React.FC = () => {
-    return ( 
-        <RootLayout>
+import Link from 'next/link';
 
-        {/* Other page content */}
-      </RootLayout>   
-     );
-}
-export default about;
+const About: React.FC = () => {
+  return (
+    <RootLayout>
+      <h1>About Page</h1>
+      {/* Other page content */}
+    </RootLayout>
+  );
+};
+
+export default About;
