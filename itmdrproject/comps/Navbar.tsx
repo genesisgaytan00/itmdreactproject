@@ -1,3 +1,4 @@
+// Navbar.tsx
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -5,7 +6,7 @@ const Navbar = () => {
     <nav>
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
-      <Link href="/listing/">Listing</Link>
+      <Link href="/listing">Listing</Link>
     </nav>
   );
 };

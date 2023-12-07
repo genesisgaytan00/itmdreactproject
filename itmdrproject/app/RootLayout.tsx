@@ -1,10 +1,10 @@
-// components/RootLayout.tsx
+
 import React from 'react';
 import { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '../app/globals.css';
 import Footer from '../comps/Footer';
-import Navbar from '../comps/Navbar';  
+import Navbar from '../comps/Navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -21,7 +21,6 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
       <body className={inter.className}>
-
         <Navbar />
         {children}
         <Footer />
